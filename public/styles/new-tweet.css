@@ -25,6 +25,7 @@
 }
 
 hr {
+  margin-top: 20px;
   border: none;
   height: 2px;
   /* Set the hr color */

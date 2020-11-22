@@ -17,7 +17,7 @@ html {
  */
 
 body {
-  color: #545149;
+  color: #bdb9b1;
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: "Source Sans Pro", sans-serif;
@@ -27,6 +27,72 @@ body {
 .container {
   width: 90%;
   background-color: #f4f1ec;;
-  align-content: center;
+  /* align-content: center; */
   margin: auto;
+}
+
+.tweet-container{
+  border: 2px solid black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9em;
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.tweet{
+  margin: 15px;
+}
+
+article.tweet header{
+  background-color: #f4f1ec;
+  height: 10vh;
+  display: flex; 
+}
+
+div.header-left{
+  display: flex;
+  width: 95%;
+  justify-content: flex-start;
+  align-items: center;
+}
+div.header-right{
+  display: flex;
+  width: 5%;
+  justify-content: space-around;
+  align-items: center;
+  color: plum;
+}
+
+article.tweet footer{
+  background-color: #f4f1ec;
+  height: 10vh;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+div.footer-left{
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+}
+
+div.footer-right{
+  display: flex;
+  width: 10%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 5px;
+}
+
+article.tweet header img{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex; /* remove extra space below image */
+  justify-content: space-between;
+  opacity: 0.2;
+  margin: 0px;
 }
