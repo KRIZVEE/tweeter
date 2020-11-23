@@ -56,6 +56,10 @@
   <main class="container">
     <h2>Compose Tweet</h2>
     <section class="new-tweet">
+      <div class='error-message'>
+        <img id='error-msg' src='/images/warning.png'>
+        <span><strong></strong></span>
+      </div>
       <form action="/tweets" method="POST">
         <label for="tweet-text">What are you humming about?</label>
         <textarea name="text" id="tweet-text" placeholder="hello"></textarea>
