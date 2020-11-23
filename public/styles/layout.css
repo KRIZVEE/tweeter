@@ -32,16 +32,21 @@ body {
 }
 
 .tweet-container{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.9em;
   color: black;
   margin-bottom: 25px;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .tweet{
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  padding: 10px;
 }
 
 article.tweet header{
@@ -58,7 +63,7 @@ div.header-left{
 }
 div.header-right{
   display: flex;
-  width: 5%;
+  width: 15%;
   justify-content: space-around;
   align-items: center;
   color: plum;
@@ -67,7 +72,7 @@ div.header-right{
 
 article.tweet footer{
   background-color: #f4f1ec;
-  height: 10vh;
+  height: 3vh;
   display: flex;
   align-items: flex-start;
 
@@ -98,10 +103,10 @@ article.tweet header img{
   margin: 0px;
 }
 
-.tweet-container:hover{
+.tweet:hover{
   box-shadow: 12px 12px 2px 1px rgba(15, 15, 15, 0.2);
 }
 
-.tweet-container:hover div.header-right{
+.tweet:hover div.header-right{
   display: flex;
 }
