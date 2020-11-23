@@ -1,11 +1,14 @@
 .container h2{
   font-size: 20px;
   margin: 0px;
+  color: black;
 }
 .new-tweet{
   font-size: 0.8em;
   font-weight: bold;
   font-family: "Source Sans Pro", sans-serif;
+  color: black;
+
 }
 .new-tweet div{
   width: 100%;

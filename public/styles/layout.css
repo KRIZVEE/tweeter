@@ -36,7 +36,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.9em;
   color: black;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   margin-top: 15px;
 }
 
@@ -62,6 +62,7 @@ div.header-right{
   justify-content: space-around;
   align-items: center;
   color: plum;
+  display: none;
 }
 
 article.tweet footer{
@@ -95,4 +96,12 @@ article.tweet header img{
   justify-content: space-between;
   opacity: 0.2;
   margin: 0px;
+}
+
+.tweet-container:hover{
+  box-shadow: 12px 12px 2px 1px rgba(15, 15, 15, 0.2);
+}
+
+.tweet-container:hover div.header-right{
+  display: flex;
 }
