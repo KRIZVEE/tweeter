@@ -37,4 +37,10 @@ i {
   align-self: flex-start;
 }
 
+/* @media only screen and (max-width: 1024px) {
+  nav{
+    background-color: #dbaf00;
+background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png")  
+  }
+} */
 

@@ -54,18 +54,17 @@
 
   <!-- Page-specific (main) content here -->
   <main class="container">
-    <h2>Compose Tweet</h2>
     <section class="new-tweet">
       <div class='error-message'>
         <img id='error-msg' src='/images/warning.png'>
         <span><strong></strong></span>
       </div>
-      <form action="/tweets" method="POST">
+      <form class="compose-tweet" action="/tweets" method="POST">
         <label for="tweet-text">What are you humming about?</label>
-        <textarea name="text" id="tweet-text" placeholder="hello"></textarea>
+        <textarea name="text" id="tweet-text"></textarea>
         <hr>
         <div>
-          <button type="submit">Tweet</button>
+          <button class="button-tweet" type="submit">Tweet</button>
           <output name="counter" class="counter" for="tweet-text">140</output>
         </div>
       </form>

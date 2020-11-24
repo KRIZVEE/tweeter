@@ -39,3 +39,10 @@ hr {
 textarea{
   width: 80%;
 }
+
+ @media only screen and (min-width: 1024px) {
+  .new-tweet {
+    margin-top: 100px;
+    width: 60vw;
+  }
+} 
